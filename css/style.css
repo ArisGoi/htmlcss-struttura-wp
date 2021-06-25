@@ -5,3 +5,58 @@
     display: table;
     clear: both;
 }
+
+.general-container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #e579e6;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #e579e6;
+}
+
+/* Main */
+.primo-box{
+    width: 100%;
+    height: 400px;
+    background-color: #e1d67a;
+}
+
+.secondo-box{
+    background-color: #0086ff;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.col-hd{
+    background-color: #abcfe7;
+    width: 100%;
+    height: 60px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.col-l, .col-c, .col-r{
+    height: 300px;
+}
+
+.col-l, .col-r{
+    background-color: #abcfe7;
+    width: 25%;
+    float: left;
+}
+
+.col-c{
+    background-color: #abcfe7;
+    width: calc(50% - 20px);
+    float: left;
+    margin: 0 10px;
+}
